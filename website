@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Euphoric Sensations</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Euphoric Sensations</h1>
+        <p>All-Natural Products for a Euphoric Experience</p>
+    </header>
+
+    <section id="brand-story">
+        <h2>Our Story</h2>
+        <p>Euphoric Sensations began with a vision to create effective, safe, and all-natural products. Inspired by a desire to enhance well-being and intimacy, we handcraft our products with care and attention to detail.</p>
+    </section>
+
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="product">
+            <h3>All-Natural Lubricant</h3>
+            <ul>
+                <li>Made with coconut butter and natural antibiotics</li>
+                <li>Helps prevent and treat yeast infections</li>
+                <li>Anti-inflammatory properties</li>
+                <li>Enhances intimacy and stamina</li>
+                <li>Quick-melting, smooth, and non-sticky</li>
+            </ul>
+        </div>
+        <div class="product">
+            <h3>THC-Infused Muscle Cream</h3>
+            <ul>
+                <li>Contains rubbing alcohol for fast absorption</li>
+                <li>Relieves pain, swelling, and muscle spasms</li>
+                <li>Soothes the skin and helps reduce eye bags and stretch marks</li>
+                <li>Effective at room temperatures up to 70-80°F</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="benefits">
+        <h2>Why Choose Euphoric Sensations?</h2>
+        <p>Our products are:</p>
+        <ul>
+            <li>All-natural and safe</li>
+            <li>Handmade with love</li>
+            <li>Tested for effectiveness</li>
+            <li>Organic-certified (in progress)</li>
+        </ul>
+    </section>
+
+    <section id="audience">
+        <h2>Who We Help</h2>
+        <p>We aim to support those with:</p>
+        <ul>
+            <li>Sexual performance challenges</li>
+            <li>Intimacy concerns</li>
+            <li>Muscle pain and swelling</li>
+        </ul>
+        <p>Our products are perfect for individuals seeking a natural, effective solution without worrying about harsh chemicals or side effects.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or feedback? Reach out to us:</p>
+        <p>Email: <a href="mailto:info@euphoricsensations.com">info@euphoricsensations.com</a></p>
+        <p>Survey: <a href="#" target="_blank">Take our survey</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Euphoric Sensations. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+header {
+    background: #ffb3c1;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+section {
+    padding: 2rem;
+    margin: 1rem 0;
+}
+
+section h2 {
+    font-size: 2rem;
+    color: #ff6f91;
+}
+
+.product h3 {
+    font-size: 1.5rem;
+    color: #ff8b94;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 0.5rem 0;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+ul li:before {
+    content: "✔";
+    color: #ff6f91;
+    position: absolute;
+    left: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #ffb3c1;
+    color: #fff;
+}
